@@ -1,7 +1,9 @@
-import _ from "lodash";
-console.log(_.last(["one", "two"]));
-//тест претира
+import _ from 'lodash';
+
+console.log(_.last(['one', 'two']));
+
 const fn = (a, b) => {
   const c = a + b;
   return c;
 };
+console.log(fn(4, 5));
